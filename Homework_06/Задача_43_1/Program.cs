@@ -1,0 +1,16 @@
+﻿Console.WriteLine("Приветствую! ");
+Console.WriteLine("Эта программа находит точку пересечения двух прямых, ");
+Console.WriteLine("заданных уравнениями y = k1 * x + b1, y = k2 * x + b2");
+double b1, k1, b2, k2, x, y;
+Console.WriteLine("Введите b1 : ");
+b1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите k1 : ");
+k1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите b2 : ");
+b2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите k2 : ");
+k2 = Convert.ToDouble(Console.ReadLine());
+x = (b2-b1)/(k1-k2);
+Console.WriteLine(x);
+y = k2*x + b2;
+Console.WriteLine(y);
